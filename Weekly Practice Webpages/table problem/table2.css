@@ -10,9 +10,6 @@ body {
     background-color: brown;
     padding: 10px 20px;
     text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 #bottom-bar {
@@ -29,4 +26,65 @@ body {
     color: white;
     text-decoration: none;
     margin-right: 20px;
+    font-size: 18px;
+}
+
+.top-container {
+    margin: 50px auto 30px;
+}
+
+.para1 {
+    color: dimgray;
+    line-height: 1.4;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.main-head {
+    color: maroon;
+    text-align: center;
+}
+
+.quote {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    font-style: italic;
+    color: #810000;
+}
+
+.Author {
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+}
+
+hr {
+    width: 900px;
+    margin-top: 5px;
+    border-color: lightgray;
+    border-width: 0.5px;
+}
+
+.sub-head {
+    text-align: center;
+}
+
+.middle-container {
+    margin: 50px auto 30px;
+}
+
+.brain-img {
+    width: 200px;
+    margin: auto;
+}
+
+.para2 {
+    line-height: 1.4;
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
 }
