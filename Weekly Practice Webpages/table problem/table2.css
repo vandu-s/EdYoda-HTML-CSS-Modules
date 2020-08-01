@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3ecc2;
+    font-family: 'Mukta', sans-serif;
+}
+
+#top-bar {
+    box-shadow: 0 2px 4px brown;
+    background-color: brown;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#bottom-bar {
+    box-shadow: 0 2px 4px br;
+    background-color: brown;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.menu-item {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
