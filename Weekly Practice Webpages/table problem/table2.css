@@ -76,8 +76,9 @@ hr {
     margin: 50px auto 30px;
 }
 
-.brain-img {
+.all-img {
     width: 200px;
+    display: block;
     margin: auto;
 }
 
@@ -86,5 +87,56 @@ hr {
     text-align: center;
     width: 1000px;
     margin: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.para3 {
+    line-height: 1.4;
+    text-align: center;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.tb-caption {
+    text-align: center;
+}
+
+#schedule-tb {
+    margin: 0 auto;
+    border: 1px solid #cccccc;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    ;
+}
+
+#schedule-tb th,
+td {
+    border: 1px solid #cccccc;
+}
+
+#tb-header {
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+tr:nth-child(even) {
+    background-color: #e6e6ff;
+}
+
+td:first-child {
+    color: blue;
+}
+
+.main-block {
+    Width: 991px;
+    margin: 0 auto;
 }
