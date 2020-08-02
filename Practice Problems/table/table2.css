@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f3ecc2;
+    background-color: #fce8d5;
     font-family: 'Mukta', sans-serif;
 }
 
@@ -73,7 +73,7 @@ hr {
 }
 
 .middle-container {
-    margin: 50px auto 30px;
+    margin: 30px auto 30px;
 }
 
 .all-img {
@@ -124,10 +124,6 @@ td {
     padding-bottom: 10px;
 }
 
-h2 {
-    margin-top: 100px;
-}
-
 tr:nth-child(even) {
     background-color: #e6e6ff;
 }
@@ -139,4 +135,10 @@ td:first-child {
 .main-block {
     Width: 991px;
     margin: 0 auto;
+}
+
+.sub-head-last {
+    color: maroon;
+    text-align: center;
+    margin-bottom: 100px;
 }
