@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: palegoldenrod;
+    color: brown;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bar {
+    box-shadow: 0 2px 4px maroon;
+    padding: 20px;
+    background-color: maroon;
+}
+
+.bottom-bar {
+    box-shadow: 0 2px 4px maroon;
+    padding: 20px;
+    background-color: maroon;
+}
+
+.para {
+    width: 1000px;
+}
+
+.bbar-text {
+    color: white;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.head1 {
+    margin-top: 50px;
+    font-weight: 300;
+}
