@@ -4,27 +4,45 @@ body {
     background-color: palegoldenrod;
     color: brown;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 .nav-bar {
     box-shadow: 0 2px 4px maroon;
     padding: 20px;
     background-color: maroon;
+    width: 100%;
 }
 
 .bottom-bar {
-    box-shadow: 0 2px 4px maroon;
-    padding: 20px;
     background-color: maroon;
+    margin-top: 150px;
+    padding: 5px;
+    width: 100%;
 }
 
-.para {
-    width: 1000px;
+.bottom-bar1 {
+    background-color: maroon;
+    margin-top: 45px;
+    padding: 5px;
+    width: 100%;
 }
 
 .bbar-text {
     color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.para {
+    width: 1200px;
+    margin: 40px 60px 20px 60px;
+    line-height: 2;
+    text-align: center;
+}
+
+.block1 {
+    margin: 20px 30px;
 }
 
 .menu-item {
@@ -36,4 +54,30 @@ body {
 .head1 {
     margin-top: 50px;
     font-weight: 300;
+    text-align: center;
+}
+
+.service-img {
+    width: 200px;
+}
+
+.block2 {
+    padding: 5px 50px;
+    text-align: center;
+}
+
+.sub-block {
+    width: 30%;
+    display: inline-block;
+}
+
+.ser-para {
+    width: auto;
+    height: auto;
+}
+
+.tel {
+    color: black;
+    font-weight: bold;
+    margin-right: 5px;
 }
