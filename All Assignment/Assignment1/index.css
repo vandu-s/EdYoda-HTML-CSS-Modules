@@ -1,3 +1,7 @@
+    body {
+        margin: 0;
+    }
+    
     .nav-bar {
         border-bottom: black;
         box-shadow: 0 2px 4px gray;
@@ -72,6 +76,7 @@
         margin-bottom: 20px;
         font-size: 16px;
         padding-top: 16px;
+        display: inline-block;
     }
     
     .card {

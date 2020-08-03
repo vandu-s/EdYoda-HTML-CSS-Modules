@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #efefef;
+}
+
+#main-container {
+    width: 100%;
+    max-width: 990px;
+}
+
+.blog-card {
+    width: 33%;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px #fff;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 168, 255, 0.3);
+}
+
+.blog-img {
+    width: 100%;
+}
+
+.blog-content {}
+
+.blog-head {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    font-style: normal;
+}
+
+.author-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14.4px;
+    color: #0096ff;
+    font-weight: 500;
+    margin-right: 5px;
+    padding-top: 4px;
+}
+
+.blog-date {
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 4.2px;
+}
+
+.description {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+    opacity: 0.5;
+}
