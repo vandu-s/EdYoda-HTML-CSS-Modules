@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fce8d5;
     font-family: 'Mukta', sans-serif;
+    background-color: lightyellow;
 }
 
 #top-bar {
@@ -102,9 +102,8 @@ hr {
 
 #schedule-tb {
     margin: 0 auto;
-    border: 1px solid #cccccc;
+    border: 1 px solid rgba(0, 0, 0, 0.2);
     text-align: center;
-    border-collapse: collapse;
 }
 
 th,
@@ -115,7 +114,7 @@ td {
 
 #schedule-tb th,
 td {
-    border: 1px solid #cccccc;
+    border: 1 px solid rgba(0, 0, 0, 0.2);
 }
 
 #tb-header {
