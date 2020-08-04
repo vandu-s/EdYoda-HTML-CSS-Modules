@@ -82,7 +82,27 @@ body {
     color: black;
     font-weight: 600;
     margin: 0;
-    text-align: center;
+}
+
+#top-bar {
+    box-shadow: 0 2px 5px #cccccc;
+    padding: 10px;
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 800;
+    color: #0084ff;
+    margin-left: 80px;
+}
+
+.story {
+    margin-top: 0;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 80px;
 }
 
 .post {
@@ -117,4 +137,26 @@ body {
     margin: 5px;
     Cursor: pointer;
     display: inline-block;
+}
+
+#bottom-bar {
+    background-color: #172146;
+    width: 100%;
+    color: white;
+}
+
+#footer {
+    width: 100%;
+    background-color: #172146;
+    padding: 20px;
+}
+
+.p1 {
+    color: white;
+    text-decoration: none;
+}
+
+.explore {
+    margin-left: 50px;
+    font-weight: 500;
 }
