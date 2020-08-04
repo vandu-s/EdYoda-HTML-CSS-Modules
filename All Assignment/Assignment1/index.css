@@ -101,6 +101,7 @@
     }
     
     .discription {
+        height: 100px;
         font-Size: 14px;
         font-weight: 400px;
         line-height: 1.43;
