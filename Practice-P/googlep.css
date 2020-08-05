@@ -28,11 +28,6 @@ body {}
     margin-left: 20px;
 }
 
-.left-container {
-    width: 700px;
-    margin-left: 100px;
-}
-
 hr {
     width: 100%;
     border-color: lightgray;
@@ -69,4 +64,65 @@ hr {
 .text {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+#main-grid {
+    width: 100%;
+}
+
+.left-container {
+    width: 700px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.right-container {
+    width: 460px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.para {
+    text-align: justify;
+    padding: 10px;
+}
+
+.pro1 {
+    margin-left: 20px;
+}
+
+.programing {
+    color: #70757a;
+    margin-left: 20px;
+}
+
+.r-top-container {
+    border: 1px solid hsl(220, 10%, 89%);
+}
+
+.r-bottom-container {
+    border: 1px solid hsl(220, 10%, 89%);
+}
+
+.html-image {
+    width: 180px;
+    margin-top: 20px;
+}
+
+.image-card {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.request-img {
+    width: 88px;
+    vertical-align: top;
+}
+
+.caption {
+    margin-left: 30px;
+    color: #1A73E8;
 }
