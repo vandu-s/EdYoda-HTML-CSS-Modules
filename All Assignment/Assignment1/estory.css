@@ -69,6 +69,7 @@
         opacity: 0.5;
         line-height: 1.43;
         text-align: left;
+        height: 100px;
     }
     
     .categories-container {
