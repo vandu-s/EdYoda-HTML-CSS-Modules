@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body {
+        background-color: #f7d6bf;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #survey-form {
+        width: 700px;
+        background-color: lightyellow;
+        margin: 0 auto;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    
+    .inputfield {
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-bottom: 15px;
+    }
+    
+    .address {
+        vertical-align: middle;
+    }
+    
+    .f2 {
+        margin-top: 10px;
+    }
+    
+    .f3 {
+        margin-top: 10px;
+        line-height: 2;
+    }
+    
+    .btn {
+        display: block;
+        margin: auto;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 10px;
+        background-color: mediumblue;
+        color: white;
+        font-size: 18px;
+        border-color: blue;
+    }
+    
+    fieldset {
+        border: 1px solid lightgray;
+        margin: 10px;
+    }
+</style>
+<form id="survey-form">
+    <h1>Application For Permission To Date My Daughter </h1>
+    <p><b>Note:</b> Form is to be Completed at least 21 days prior to date </p>
+    <fieldset>
+        <legend>Personal Details</legend>
+        <label>Name: <input type="text" autocomplete="disabled" class="inputfield" name="name" placeholder="Enter name here"> <br></label>
+        <span>Email:</span>
+        <input class="inputfield" autocomplete="disabled" type="email" name="email" placeholder="Enter email here"><br>
+        <span>Mobile:</span>
+        <input class="inputfield" type="tel" name="phone number" placeholder="Enter phone number here"> <br>
+        <span>Address</span>
+        <textarea name="Address" class="inputfield address" placeholder="Enter Address here"></textarea> <br>
+        <label>IQ: </label>
+        <input class="inputfield" type="number" name="iq"> <br>
+        <span>        Gender
+        </span> <br>
+        <label>
+        <input class="gender" type="radio" name="gender" value="male">
+           Male</label> <br><label>
+        <input class="gender" type="radio" name="gender" value="female"> Female
+        </label> <br>
+        <label>
+        <input class="gender" type="radio" name="gender" value="other">
+
+        Other</label> <br>
+        <span>Date of Proposed Outing</span>
+        <input type="date" name="outlingdate">
+    </fieldset>
+    <fieldset class="f2">
+        <p>Check All That Apply</p>
+        <label><input type="checkbox" name="Apply">
+            I have tattoos and/or piercings </label><br>
+        <label><input type="checkbox" name="Apply">
+        I am more than 2 years older than my daughter
+    </label> <br>
+        <label><input type="checkbox" name="Apply">
+        I own a panel van or V8 ute
+    </label> <br>
+        <label><input type="checkbox" name="Apply">
+        I work full-time
+    </label> <br>
+        <label><input type="checkbox" name="Apply">
+        My parents are rich
+    </label> <br>
+        <label><input type="checkbox" name="Apply">
+        Is the date at a well lit public location
+
+    </label> <br>
+
+
+    </fieldset>
+    <fieldset class="f3">
+        <label for="Political">Political Persuasion:</label>
+        <select id="#Political" name="Political Persuasion">
+            <option value="leftw">Left Wing</option>
+            <option value="rightw">Right Wing</option>
+            <option value="conservation">Conservation</option>
+            <option value="nazi">Nazi</option>
+
+        </select> <br>
+        <span>Education Level Completed:</span>
+        <select name="education">
+    <option value="University">University</option>
+    <option value="Collage">Collage</option>
+    <option value="high School">High School</option>
+    <option value="None">None</option>
+
+</select>
+    </fieldset>
+
+    <fieldset>
+        <legend class="l1"> Essay Section
+        </legend>
+        <p>In 50 words or more explain why you want to date my daughter
+
+        </p>
+        <textarea placeholder="Enter text here" name="Essay" cols="40" rows="5"></textarea>
+        <p>Please upload contact details for 2 references </p>
+        <textarea name="contact details" placeholder="Enter text here" name="Essay" cols="40" rows="5"></textarea>
+        <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here: Attach Files
+
+        </p>
+        <input type="file" name="Clearance Certificate">
+
+    </fieldset>
+    <input class="btn" type="submit" value="Send Your Application">
+
+</form>
+
+<body>
+
+</body>
+
+</html>
