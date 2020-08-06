@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Service Survey</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;800&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #cff6cf;
+            font-family: 'Raleway', sans-serif;
+        }
+        
+        #heading {
+            margin-bottom: 10px;
+        }
+        
+        .text {
+            margin-top: 0;
+            color: gray;
+        }
+        
+        #survey-form {
+            width: 100%;
+            margin: auto;
+            background-color: white;
+            padding: 25px 40px;
+            border-radius: 5px;
+        }
+        
+        #main-block {
+            width: 800px;
+            margin: 50px auto 0 auto;
+        }
+        
+        hr {
+            opacity: 0.5;
+        }
+        
+        #survey-tb,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+        
+        th {
+            background-color: #dcc7aa;
+        }
+        
+        #survey-tb {
+            width: 100%;
+        }
+        
+        .empty-cell {
+            empty-cells: hide;
+        }
+        
+        .customer-service {}
+        
+        .sub-heading {
+            font-size: 20px;
+        }
+        
+        textarea {
+            width: 100%;
+        }
+        
+        .btn {
+            background-color: #dcc7aa;
+            padding: 15px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bolder;
+            outline-color: #e95757;
+        }
+    </style>
+</head>
+
+<body>
+    <main id="main-block">
+        <form id="survey-form">
+            <h1 id="heading">Customer Service Survey</h1>
+            <p class="text">Please take a moment to fill out this survey</p>
+            <hr>
+            <h2 class="sub-heading">Overall satisfation of service</h2>
+            <table id="survey-tb">
+                <tr>
+                    <th class="empty-cell"></th>
+                    <th>Very Satisfied</th>
+                    <th>Satisfied</th>
+                    <th>Neutral</th>
+                    <th>Unsatisfied</th>
+                    <th>Very unsatisfied</th>
+                </tr>
+                <tr>
+                    <td><b>Friendliness</b></td>
+                    <td> <input type="radio" name="Friendliness"></td>
+                    <td><input type="radio" name="Friendliness"></td>
+                    <td><input type="radio" name="Friendliness"></td>
+                    <td><input type="radio" name="Friendliness"></td>
+                    <td><input type="radio" name="Friendliness"></td>
+
+                </tr>
+                <tr>
+                    <td><b>Knowledge</b></td>
+                    <td><input type="radio" name="knowledge"></td>
+                    <td><input type="radio" name="knowledge"></td>
+                    <td><input type="radio" name="knowledge"></td>
+                    <td><input type="radio" name="knowledge"></td>
+                    <td><input type="radio" name="knowledge"></td>
+
+                </tr>
+                <tr>
+                    <td><b>Quicklness</b></td>
+                    <td><input type="radio" name="quicklness"></td>
+                    <td><input type="radio" name="quicklness"></td>
+                    <td><input type="radio" name="quicklness"></td>
+                    <td><input type="radio" name="quicklness"></td>
+                    <td><input type="radio" name="quicklness"></td>
+
+                </tr>
+            </table>
+            <h2 class="sub-heading">Would you use our Customer service in the future?</h2>
+            <div class="customer-service"><label><input type="radio" name="service-future">Yes</label></div>
+            <div class="customer-service"><label><input type="radio" name="service-future">No</label></div>
+            <div class="customer-service"><label><input type="radio" name="service-future">Maybe</label>
+            </div>
+            <h2 class="sub-heading">
+                How can we improve our service?
+            </h2>
+            <textarea name="improve-service" id="" cols="30" rows="10"></textarea>
+            <input class="btn" type="submit" value="Submit Survey">
+        </form>
+
+
+    </main>
+</body>
+
+</html>
