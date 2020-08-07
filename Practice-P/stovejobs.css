@@ -1,0 +1,84 @@
+    #header {
+        background-color: ghostwhite;
+        margin: 0 auto;
+        background-size: cover;
+        width: 950px;
+        height: 550px;
+        background-image: url(http://www.hdwallpapers.in/walls/steve_jobs-wide.jpg);
+    }
+    
+    #container {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #right-content {
+        margin-top: 150px;
+        margin-bottom: 100px;
+        width: 290px;
+        background-color: white;
+        font-family: 'Dosis', sans-serif;
+        float: right
+    }
+    
+    #left-content {
+        margin-bottom: 100px;
+        margin-top: 150px;
+        float: left;
+        width: 800px;
+        font-family: 'Dosis', sans-serif;
+    }
+    
+    .text {
+        font-family: 'Pacifico', cursive;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .text1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    hr {
+        border: 0.5px solid lightgray;
+    }
+    
+    tr td:first-child {
+        width: 80px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .role-tb td {
+        border-bottom: 1px solid lightgray;
+        padding: 10px 10px 10px 20px;
+        text-align: left;
+    }
+    
+    .side-tb tr td:nth-child(even) {
+        border-bottom: 1px solid lightgray;
+        text-align: center;
+    }
+    
+    .side-tb {
+        width: 50px;
+    }
+    
+    #nutshell {
+        font-family: 'Lato', sans-serif;
+        font-size: 26px;
+        font-weight: bold;
+        vertical-align: top;
+    }
+    
+    .here {
+        color: dodgerblue;
+    }
+    
+    #footer {
+        clear: both;
+        margin-bottom: 100px;
+    }
