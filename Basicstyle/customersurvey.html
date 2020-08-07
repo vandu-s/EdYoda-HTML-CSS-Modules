@@ -39,11 +39,9 @@
             opacity: 0.5;
         }
         
-        #survey-tb,
         th,
         td {
             border: 1px solid black;
-            border-collapse: collapse;
             text-align: center;
             padding: 10px;
             font-size: 14px;
@@ -56,6 +54,7 @@
         
         #survey-tb {
             width: 100%;
+            border-collapse: collapse;
         }
         
         .sub-heading {
@@ -76,6 +75,10 @@
             font-weight: bolder;
             outline-color: #e95757;
         }
+        
+        .cell {
+            border: 0;
+        }
     </style>
 </head>
 
@@ -87,8 +90,8 @@
             <hr>
             <h2 class="sub-heading">Overall satisfation of service</h2>
             <table id="survey-tb">
-                <tr class="empty-cell">
-                    <th class="cell"></th>
+                <tr>
+                    <td class="cell"></td>
                     <th>Very Satisfied</th>
                     <th>Satisfied</th>
                     <th>Neutral</th>
