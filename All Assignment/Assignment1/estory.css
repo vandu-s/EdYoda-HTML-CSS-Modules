@@ -39,6 +39,7 @@
         font-weight: 600px;
         font-style: normal;
         margin: 0;
+        height: 50px;
     }
     
     .author-name {
@@ -132,7 +133,7 @@
     }
     
     .small {
-        padding: 6px 14px;
+        padding: 8px 14px;
         width: auto;
         color: #0084ff;
         border-radius: 15px;
@@ -140,6 +141,7 @@
         margin: 5px;
         Cursor: pointer;
         display: inline-block;
+        font-size: 14px;
     }
     
     #footer {
