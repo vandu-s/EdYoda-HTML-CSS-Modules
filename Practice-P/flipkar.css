@@ -1,11 +1,10 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: lightyellow;
 }
 
 header {
@@ -120,4 +119,70 @@ nav {
     border: 0;
     border-radius: 2px 0 0 2px;
     padding: 0 16px;
+}
+
+main {
+    width: 1200px;
+}
+
+.blog-card {
+    padding: 5px 10px;
+    margin: 8px;
+    box-shadow: 0 2px 20px #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid rgba(0, 168, 255, 0.3);
+}
+
+.blog-img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.blog-content {
+    padding: 10px 24px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.store-name {
+    color: #878787;
+    text-transform: uppercase;
+}
+
+.saree-material {
+    text-transform: capitalize;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.color {
+    color: #878787;
+    text-transform: capitalize;
+}
+
+.assure-img {
+    height: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.price {
+    font-weight: bolder;
+}
+
+.deleted {
+    color: #878787;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.discount {
+    color: #388e3c;
+    font-weight: 600;
 }
