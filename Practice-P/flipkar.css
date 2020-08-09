@@ -5,6 +5,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: lightyellow;
+    margin: 0;
 }
 
 header {
@@ -80,6 +81,7 @@ nav {
     font-size: 16px;
     font-weight: 600;
     text-align: center;
+    outline: none;
 }
 
 .menu-links {
@@ -122,7 +124,7 @@ nav {
 }
 
 main {
-    width: 1100px;
+    width: 1200px;
     margin: 0 auto;
     padding: 2%;
 }
@@ -134,7 +136,7 @@ section {
 }
 
 .blog-card {
-    width: calc(33% - 16px);
+    width: calc(23% - 16px);
     margin: 8px;
     box-shadow: 0 2px 20px #fff;
     background-color: #fff;
