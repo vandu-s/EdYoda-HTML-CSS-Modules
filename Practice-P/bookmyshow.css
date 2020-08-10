@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-img {
+    width: 115px;
+    background-color: #27272e;
+}
+
+header {}
+
+.primary-nav {
+    height: 65px;
+    background-color: #27272e;
+    padding: 0 10px;
+}
+
+.side-section {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 2px 5px #cccccc;
+}
+
+#main-container {
+    width: 1300px;
+    margin: 2% auto;
+}
+
+.trending-search-list {}
+
+.trending-search-head {
+    font-size: 18px;
+    color: #333;
+}
+
+.search-result {
+    padding: 6px 10px;
+}
+
+hr {
+    opacity: 0.5;
+    margin: 0;
+}
+
+.movie-name:hover {
+    color: #0078ff;
+}
+
+.movie-name {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    cursor: pointer;
+    line-height: 18px;
+    margin-left: 10px;
+}
+
+.movie-type {
+    color: #999;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
