@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(240, 226, 237);
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            box-sizing: border-box;
+        }
+        
+        header {
+            box-shadow: 0 2px 4px rgb(182, 110, 250);
+            background-color: rgb(182, 110, 250);
+            padding: 0 20px;
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        
+        .menu {
+            display: flex;
+            color: white;
+            font-size: 14px;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin: 0 16px;
+        }
+        
+        #dropdown-wrapper {
+            position: relative;
+        }
+        
+        #dropdown-menu {
+            cursor: pointer;
+            width: 100px;
+            height: 120px;
+            text-align: center;
+            border-top: 2px solid rgb(247, 52, 18);
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 5px #f9f9f9;
+            display: none;
+        }
+        /* #home-dropdown:hover~#dropdown-menu {
+            display: block;
+        }
+        
+        #dropdown-menu:hover {
+            display: block;
+        }*/
+        
+        #dropdown-wrapper:hover>#dropdown-menu {
+            display: block;
+        }
+        
+        section {
+            width: 600px;
+            height: 600px;
+            background-color: rosybrown;
+            margin: 10px 10px;
+            position: relative;
+        }
+        
+        .p1 {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        
+        .p2 {
+            width: 300px;
+            height: 300px;
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div id="dropdown-wrapper">
+            <a class="menu" href="#" id="home-dropdown">Home</a>
+            <div id="dropdown-menu">
+                <p href="#">Link1</p>
+                <p href="#">Link2</p>
+                <p href="#">Link3</p>
+
+            </div>
+        </div>
+
+        <a class="menu" href="#">menu</a>
+        <a class="menu" href="#">Contact us</a>
+
+    </header>
+    <main>
+        <h1>transform</h1>
+        <img class="p2" src="https://cdn2.vectorstock.com/i/1000x1000/14/21/roaring-lion-logo-king-gold-on-black-background-vector-24171421.jpg" alt="img">
+    </main>
+
+</body>
+
+</html>
