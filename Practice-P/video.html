@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cf98ff2373.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+    <style>
+        .video-player {
+            width: 600px;
+            position: relative;
+            background-color: black;
+        }
+        
+        .controls {
+            width: 600px;
+            position: absolute;
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+        }
+        
+        .controls i {
+            font-size: 20px;
+            color: white;
+            padding: 8px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="video-player">
+        <video width="100%" autoplay muted>
+            <source src="./image/VID-20200604-WA0000.mp4"> 
+        </video>
+        <div class="controls">
+            <div class="left-menu">
+                <i class="fas fa-play"></i>
+                <i class="fas fa-undo-alt"></i>
+                <i class="fas fa-redo"></i>
+                <i class="fas fa-volume-up"></i>
+
+            </div>
+            <div class="right-menu">
+                <i class="fas fa-question-circle"></i>
+
+                <i class="fas fa-step-forward"></i>
+                <i class="fas fa-comment-alt"></i>
+                <i class="fas fa-expand"></i>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
