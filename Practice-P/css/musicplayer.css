@@ -52,7 +52,7 @@ body {
 }
 
 .side-img h4 {
-    margin: 0;
+    margin: 12px 0 0 0;
 }
 
 .side-img p {
@@ -176,3 +176,101 @@ body {
 .setting-icon {
     margin: 0 15px;
 }
+
+#topchart-section {}
+
+.heading-part {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.angles i {
+    font-size: 18px;
+    margin-right: 15px;
+    color: rgb(187, 181, 181);
+}
+
+#grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popstar-cards {
+    text-align: start;
+}
+
+.pop-img {
+    width: 190px;
+}
+
+.pop-img img {
+    width: 100%;
+    height: 200px;
+    border-radius: 24px;
+    box-shadow: 0 8px 20px -6px #dd0b66;
+    transition: transform 1s ease;
+}
+
+.pop-img img:hover {
+    transform: scale(1.2);
+}
+
+.popstar-cards h4 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.popstar-cards p {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(168, 166, 166);
+}
+
+#playlist-section {
+    width: 100%;
+}
+
+#most-popular-wrapper {
+    width: 60%;
+}
+
+#most-popular-wrapper h3 {
+    margin-bottom: 0;
+    letter-spacing: 0.10px;
+}
+
+.songs-no {
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(168, 166, 166);
+}
+
+.song-list-wrapper {
+    background-color: rgb(221, 220, 220);
+}
+
+.songs {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.songs span {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.songs img {
+    width: 20px;
+    height: 20px;
+}
+
+.songs h5 {}
+
+.songs p {}
