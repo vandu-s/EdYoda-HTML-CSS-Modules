@@ -78,6 +78,8 @@ body {
     align-items: flex-start;
 }
 
+.menu-item {}
+
 .menu-item i {
     font-size: 14px;
     color: rgb(124, 122, 122);
@@ -253,7 +255,7 @@ body {
 }
 
 .song-list-wrapper {
-    background-color: rgb(221, 220, 220);
+    background-color: rgb(245, 240, 240);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -299,8 +301,6 @@ body {
     font-weight: 600;
 }
 
-.red-heart {}
-
 #now-playing-wrapper {
     width: 36%;
     background-color: white;
@@ -323,7 +323,7 @@ body {
     width: 100%;
     height: 400px;
     margin: 10 auto;
-    background-color: rgb(231, 226, 226);
+    background-color: rgb(248, 243, 243);
     border-radius: 5px;
     border: 1px solid rgb(231, 226, 226);
     box-shadow: 0 2px 5px rgb(231, 226, 226);
@@ -331,17 +331,17 @@ body {
 
 .playing-song-card {
     text-align: center;
-    width: 100%;
+    width: 70%;
     margin: 10px auto;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 12px 16px 0 rgb(0, 0, 0, 0.04);
-    padding: 40px 5px;
+    padding: 30px 20px 0 0;
     padding-bottom: 10px;
 }
 
 .playing-song-card img {
-    width: 40%;
+    width: 50%;
     border-radius: 50%;
 }
 
@@ -359,7 +359,7 @@ body {
 }
 
 .line {
-    width: 75%;
+    width: 70%;
     background-color: rgba(168, 166, 166, 0.6);
     display: inline-block;
     height: 2px;
@@ -368,7 +368,7 @@ body {
 .time-wrapper {
     display: flex;
     justify-content: space-between;
-    width: 75%;
+    width: 70%;
     margin-left: 45px;
 }
 
@@ -388,4 +388,8 @@ body {
 
 .playing-controls-wrapper .pause-active {
     color: #216faf;
+}
+
+.songs .red {
+    color: rgb(255, 49, 70);
 }

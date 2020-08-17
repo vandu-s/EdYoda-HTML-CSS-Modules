@@ -15,26 +15,28 @@ nav {
     box-shadow: 0 2px 5px black;
     position: fixed;
     top: 0;
+    padding: 12px 10px;
 }
 
 #nav-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 20px;
 }
 
 .logo {
-    width: 100px;
-    height: 70px;
+    width: 120px;
 }
 
 .menu-item {
+    font-size: 14px;
     text-decoration: none;
     color: white;
     margin: 0 10px;
 }
 
-i {
+.right-menu i {
     font-size: 20px;
     color: white;
 }
@@ -47,16 +49,14 @@ i {
 .left-menu {
     display: flex;
     align-items: center;
+    margin-left: 30px;
 }
 
 .right-menu {
     display: flex;
     align-items: center;
-}
-
-i {
-    font-size: 20px;
-    color: white;
+    justify-content: space-around;
+    margin-left: 30px;
 }
 
 .input-box {
@@ -81,26 +81,24 @@ i {
     padding: 9px 12px;
     height: 35px;
     position: absolute;
-    right: 0;
+    right: 15px;
     top: 0;
     background-color: black;
 }
 
 .search-icon>i {
-    font-size: 16px;
-    color: rgb(117, 117, 117);
+    font-size: 18px;
 }
 
 main {
-    margin-top: 150px;
-    margin: 120px 0 0 20px;
+    margin: 80px auto;
 }
 
-.heading1 h4 {
+.headings h4 {
     margin-right: 8px;
 }
 
-.heading1 {
+.headings {
     display: flex;
     align-items: center;
     margin: 0 45px;
@@ -113,12 +111,13 @@ main {
 .movie-card-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .movie-card {
     width: 15%;
     transition: transform 1s ease-in;
-    margin: 0 5px;
+    margin: 0 4px;
 }
 
 .movie-card:hover {
