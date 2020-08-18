@@ -187,7 +187,14 @@ main {
     }
     .humburg {
         display: block;
-        font-size: 20px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    #left-wrapper h1 {
+        font-weight: 600;
+        margin: 5px 0 0 0;
+        font-size: 40px;
+        line-height: 1.1;
     }
     #main-container {
         display: flex;
@@ -195,6 +202,13 @@ main {
     }
     .bottom-container {
         display: none;
+    }
+    #right-wrapper-landing-img {
+        width: 80%;
+        margin: 20px auto auto auto;
+    }
+    .img {
+        width: 100%;
     }
     #left-wrapper {
         width: 90%;
