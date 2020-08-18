@@ -63,7 +63,7 @@ body {
 }
 
 #all-menu {
-    margin: 40px 0 40px 50px;
+    margin: 100px 0 40px 40px;
     color: rgb(63, 61, 61);
     display: flex;
     flex-direction: column;
@@ -78,17 +78,34 @@ body {
     align-items: flex-start;
 }
 
-.menu-item {}
-
-.menu-item i {
-    font-size: 14px;
-    color: rgb(124, 122, 122);
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: center;
+    margin: 10px 0 0 0;
 }
 
-.menu-item span {
+.icons {
+    width: 20px;
+    text-align: left;
+}
+
+.icons i {
+    font-size: 14px;
+    color: rgb(124, 122, 122);
+    cursor: pointer;
+}
+
+.menu-name {
+    width: 150px;
+    text-align: left;
+}
+
+.menu-name span {
     font-size: 14px;
     font-weight: 500;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .active-menu {
@@ -141,6 +158,7 @@ body {
     left: 10px;
     bottom: 12px;
     padding: 0 5px;
+    cursor: pointer;
 }
 
 .input-box {
@@ -159,6 +177,7 @@ body {
 .icons-button i {
     font-size: 15px;
     color: rgb(124, 122, 122);
+    cursor: pointer;
 }
 
 .upgrad-btn {
