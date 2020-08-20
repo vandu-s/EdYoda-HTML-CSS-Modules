@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle {
+            margin: 100px auto;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 224, 0.8);
+            cursor: pointer;
+        }
+        
+        .circle::before {
+            content: "";
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            position: absolute;
+            transform: translate(-20px, -20px);
+            background-color: rgba(0, 0, 150, 0.2);
+            animation-name: secondringscale;
+            animation-duration: 1s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+        
+        .circle:hover::before {
+            animation-play-state: paused;
+        }
+        
+        @keyframes secondringscale {
+            0% {
+                transform: translate(-20px, -20px) scale(1);
+            }
+            100% {
+                transform: translate(-20px, -20px) scale(1.5);
+            }
+        }
+        
+        .circle::after {
+            content: "";
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            position: absolute;
+            background-color: rgba(0, 0, 150, 0.3);
+            transform: translate(-40px, -40px);
+            animation-name: thirdringscale;
+            animation-duration: 1s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+        
+        .circle:hover::after {
+            animation-play-state: paused;
+        }
+        
+        @keyframes thirdringscale {
+            0% {
+                transform: translate(-40px, -40px) scale(1);
+            }
+            100% {
+                transform: translate(-40px, -40px) scale(1.5);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Circle in circle using pseudo elements</h1>
+    <div class="circle"></div>
+
+</body>
+
+</html>

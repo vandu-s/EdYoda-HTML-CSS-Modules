@@ -31,6 +31,14 @@ p {
     vertical-align: middle;
 }
 
+input:read-only {
+    background-color: lightcyan;
+}
+
+input:required {
+    background-color: aqua;
+}
+
 .labels {
     display: inline-block;
     text-align: right;

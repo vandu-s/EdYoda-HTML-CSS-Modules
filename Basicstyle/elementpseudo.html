@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            color: #ff0000;
+        }
+        
+        p::first-line {
+            color: #0000ff;
+        }
+        
+        p::selection {
+            background-color: crimson;
+        }
+        
+        p::before {
+            content: '"';
+            content: url();
+        }
+        
+        p::after {
+            content: '"';
+        }
+        
+         ::-webkit-scrollbar {
+            width: 10px;
+        }
+        
+         ::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+        
+         ::-webkit-scrollbar-thumb {
+            background-color: transparent;
+        }
+        
+         ::-webkit-scrollbar-thumb:hover {
+            background-color: transparent;
+        }
+        
+         ::placeholder {
+            color: red;
+            font-size: 16px;
+        }
+        
+        html {
+            font-size: 16px;
+        }
+        
+        .para {
+            font-size: 2rem;
+        }
+        
+        @media(max-width: 900px) {
+            html {
+                font-size: 12px;
+            }
+            .para {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-para">
+        <div class="container">
+            <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore fuga nulla saepe similique voluptatum alias nihil! Adipisci in mollitia dolorem alias sed perspiciatis voluptatibus odit quis nam reprehenderit, quibusdam ullam esse tempore
+                placeat modi sint optio. Quos corporis fugit a commodi ad, eius ipsam velit voluptatibus est illum odit doloribus?</p>
+            <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, eaque tempore ad enim quod cum esse vel! Nihil laboriosam magnam fugit consectetur mollitia sequi quas natus maiores voluptatum cum, ex totam, optio nulla quidem numquam iure sed
+                similique ipsa molestias tenetur inventore beatae quo alias harum! Odit soluta molestias optio?</p>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

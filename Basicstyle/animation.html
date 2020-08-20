@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        .bg {
+            margin-top: 0;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-image: url(https://previews.123rf.com/images/lilu330/lilu3301507/lilu330150700028/42515081-seamless-cartoon-country-landscape-endless-village-background-separated-layers-for-parallax-effect.jpg);
+        }
+        /*  img {
+            width: 500px;
+            height: 500px;
+            animation-name: imgchange;
+            animation-duration: 2s;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+            animation-fill-mode: forwards;
+        }
+        
+        @keyframes imgchange {
+            0% {
+                border-radius: 0%;
+            }
+            100% {
+                border-radius: 50%;
+            }
+        }
+        
+        img:hover {
+            animation-play-state: paused;
+        }
+        div {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            box-shadow: 0 0px 8px rgb(143, 6, 6);
+            background-color: red;
+            display: inline-block;
+            animation-name: blink;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes blink {
+            0% {
+                background-color: red;
+            }
+            50% {
+                background-color: rgb(12, 141, 7);
+            }
+            100% {
+                background-color: black%;
+            }
+        }*/
+        
+        img {
+            width: 200px;
+            background-color: transparent;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            animation-name: flying;
+            animation-duration: 1s;
+            animation-iteration-count: 3;
+            animation-delay: 2s;
+            animation-timing-function: ease-in;
+            animation-direction: alternate;
+        }
+        
+        @keyframes flying {
+            0% {
+                bottom: 0%;
+            }
+            25% {
+                bottom: 25%;
+            }
+            50% {
+                bottom: 50%;
+            }
+            100% {
+                bottom: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="bg">
+        <h1>animation</h1>
+        <img src="https://media.istockphoto.com/vectors/start-up-flat-line-icon-business-and-rocket-vector-graphics-a-solid-vector-id817391764" alt="img">
+    </section>
+
+</body>
+
+</html>
