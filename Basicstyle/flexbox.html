@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #ee9ca7, #ffdde1);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        
+        .input-container {
+            display: flex;
+            border: 1px solid blue;
+            padding: 20px;
+            margin: 10px;
+        }
+        
+        .input-container>div {
+            margin-left: 10px;
+            padding: 10px;
+            background-color: #00cec9;
+            color: white;
+            border: 1px solid black;
+            flex-grow: 0;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .input-container div:nth-child(2) {
+            flex-grow: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="input-container">
+        <div>1</div>
+        <div>2</div>
+        <div class="one">3</div>
+        <div class="two">4</div>
+        <div class="three">5</div>
+        <div>6</div>
+
+
+
+    </section>
+
+</body>
+
+</html>

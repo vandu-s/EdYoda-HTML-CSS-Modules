@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    /*font-family: 'PT Sans', sans-serif;*/
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Dosis', sans-serif;
+}
