@@ -42,7 +42,7 @@
         padding-left: 0%;
         justify-content: space-between;
         align-items: center;
-        z-index: 9;
+        z-index: 1000;
     }
     
     .brand {
@@ -66,13 +66,14 @@
     }
     
     .nav-menu {
-        width: 500px;
+        width: 450px;
         display: flex;
         align-items: center;
         align-items: stretch;
         order: 1;
         position: relative;
         justify-content: space-around;
+        margin-left: 390px;
     }
     
     .free-quote-wrapper {
@@ -86,6 +87,7 @@
         letter-spacing: 1px;
         text-transform: uppercase;
         cursor: pointer;
+        order: 2;
     }
     
     .free-quote-wrapper :hover {
@@ -97,12 +99,13 @@
     }
     
     .nav-link {
-        padding: 31p 14px;
+        padding: 31px, 14px;
         color: #414147;
         font-size: 12px;
         font-weight: 700;
         letter-spacing: 1px;
         text-decoration: none;
+        cursor: pointer;
     }
     
     .nav-link.w--current {
@@ -115,12 +118,25 @@
     
     .nav-text {
         position: relative;
-        z-index: 1;
+        z-index: 10;
         padding-top: 3px;
         padding-bottom: 3px;
         background-color: #fff;
         text-transform: uppercase;
         display: inline-block;
+    }
+    
+    .vertical-line {
+        z-index: 1;
+        position: absolute;
+        left: 40px;
+        border-right: 1px solid #e47312;
+        height: 50px;
+        display: none;
+    }
+    
+    .nav-link:hover .vertical-line {
+        display: block;
     }
     
     .arrow-image {
@@ -129,12 +145,11 @@
     }
     
     .dropdown {
-        position: relative;
         text-align: left;
         z-index: 900;
     }
     
-    #dropdown-item:hover .dropdown-list {
+    .dropdown:hover>.dropdown-list {
         display: block;
         min-width: 150px;
         padding: 9px 13px;
@@ -145,12 +160,14 @@
         position: absolute;
         min-width: 100%;
         display: none;
+        z-index: 1;
+        width: 160px;
     }
     
     .dropdown-link {
         color: #717177;
         font-size: 12px;
-        font-weight: 600;
+        font-weight: 400;
         text-transform: uppercase;
         padding: 10px 20px;
         display: block;
@@ -161,14 +178,58 @@
         color: #E47328;
     }
     
-    .icon-dropdown-toggle {
+    .humburge-icon {
+        order: 3;
         display: none;
+    }
+    
+    .humburge-icon i {
+        font-size: 25px;
+    }
+    
+    .middle-content {
         position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-        margin-right: 20px;
-        width: 1em;
-        height: 1em;
+        margin-top: 170px;
+    }
+    
+    .top-title {
+        color: #fff;
+        font-size: 62px;
+        line-height: 70px;
+        margin-top: 0;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    
+    .paragraph-white {
+        font-weight: 400;
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 5px;
+        color: hsla(0, 0%, 100%, 0.7);
+        margin-bottom: 40px;
+    }
+    
+    .popup-botton {
+        cursor: pointer;
+        min-width: 160px;
+        padding: 18px 30px;
+        color: #fff;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 1px;
+        background-color: #e47312;
+        transition: all 300ms ease;
+        border: 0;
+        outline: 0;
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .popup-botton:hover {
+        Background-color: #e98a38
     }
