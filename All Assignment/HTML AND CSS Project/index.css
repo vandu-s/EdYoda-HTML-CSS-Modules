@@ -1,9 +1,174 @@
-* {
-    box-sizing: border-box;
-    /*font-family: 'PT Sans', sans-serif;*/
-}
-
-body {
-    background-color: #FFFFFF;
-    font-family: 'Dosis', sans-serif;
-}
+    * {
+        box-sizing: border-box;
+        /*font-family: 'PT Sans', sans-serif;*/
+    }
+    
+    body {
+        background-color: #FFFFFF;
+        font-family: 'Dosis', sans-serif;
+        color: #121213;
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 2%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    #banner {
+        position: relative;
+        height: 85vh;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-size: cover;
+        background-position: 0px 0px 50%, 0%;
+        background-color: #c1c3cc;
+        background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83)35%, rgba(193, 195, 204, 0.28)65%), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg);
+    }
+    
+    .navigation-wrapper {
+        position: absolute;
+        height: 88px;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: auto;
+        background-color: #fff;
+        width: 90%;
+        display: flex;
+        margin-top: 2%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 0%;
+        padding-left: 0%;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 9;
+    }
+    
+    .brand {
+        background-color: #e47312;
+        height: 110px;
+        width: 160px;
+        padding-left: 35px;
+        padding-right: 35px;
+        display: inline-block;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        align-self: stretch;
+        position: relative;
+    }
+    
+    .brand-logo {
+        width: 100%;
+    }
+    
+    .nav-menu {
+        width: 500px;
+        display: flex;
+        align-items: center;
+        align-items: stretch;
+        order: 1;
+        position: relative;
+        justify-content: space-around;
+    }
+    
+    .free-quote-wrapper {
+        background-color: #e47312;
+        color: white;
+        margin-left: 20px;
+        padding: 34px 28px 31px;
+        height: 100%;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .free-quote-wrapper :hover {
+        background-color: #e98a38;
+    }
+    
+    .text-block {
+        line-height: 16px;
+    }
+    
+    .nav-link {
+        padding: 31p 14px;
+        color: #414147;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-decoration: none;
+    }
+    
+    .nav-link.w--current {
+        color: #e47312;
+    }
+    
+    .nav-link:hover {
+        color: #e47312;
+    }
+    
+    .nav-text {
+        position: relative;
+        z-index: 1;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        background-color: #fff;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+    
+    .arrow-image {
+        width: 8px;
+        margin-left: 4px;
+    }
+    
+    .dropdown {
+        position: relative;
+        text-align: left;
+        z-index: 900;
+    }
+    
+    #dropdown-item:hover .dropdown-list {
+        display: block;
+        min-width: 150px;
+        padding: 9px 13px;
+    }
+    
+    .dropdown-list {
+        background-color: #fff;
+        position: absolute;
+        min-width: 100%;
+        display: none;
+    }
+    
+    .dropdown-link {
+        color: #717177;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        display: block;
+    }
+    
+    .dropdown-link:hover {
+        background-color: #F1F1F7;
+        color: #E47328;
+    }
+    
+    .icon-dropdown-toggle {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-right: 20px;
+        width: 1em;
+        height: 1em;
+    }
