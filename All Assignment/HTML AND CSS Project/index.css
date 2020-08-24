@@ -97,6 +97,7 @@
     
     .text-block {
         line-height: 16px;
+        width: 100px;
     }
     
     .nav-link {
@@ -366,10 +367,15 @@
         display: inline-block;
     }
     
-    .hovered-button::after {
+    .hovered-button.for-button {
+        position: relative;
+    }
+    
+    .hovered-button.for-button::after {
         content: '';
         position: absolute;
-        width: 120px;
+        width: 100%;
+        bottom: 0;
         height: 2px;
         background-color: hsla(0, 0%, 100%, 0.3);
         color: #E47312;
@@ -382,11 +388,13 @@
     .section-item-wrapper {
         display: flex;
         margin-top: 100px;
+        justify-content: space-around;
     }
     
     .service-item {
         margin-bottom: 5%;
-        padding-right: 5%;
+        padding-right: 3%;
+        width: 25%;
     }
     
     .item-image {
@@ -404,9 +412,64 @@
     }
     
     .item-text {
-        margin-bottom: 10px;
+        margin-bottom: 25px;
         margin-top: 0;
         color: #919197;
         font-size: 17px;
         line-height: 25px;
+    }
+    
+    .who-we-wrapper {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 15%;
+    }
+    
+    .labour-img-wrapper {
+        width: 50%;
+    }
+    
+    .labour-img {
+        width: 100%;
+    }
+    
+    .who-we-disc {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 580px;
+        height: 420px;
+    }
+    
+    .margin-top-d {
+        margin-top: 40px;
+        text-align: justify;
+    }
+    
+    .margin-top-b {
+        margin-top: 15px;
+    }
+    
+    .fun-facts {
+        display: flex;
+    }
+    
+    .fun-item {
+        width: 25%;
+        margin-right: 9%;
+    }
+    
+    .fun-title {
+        margin-bottom: 10px;
+        color: #e47312;
+        font-size: 60px;
+        line-height: 70px;
+        font-weight: 500;
+    }
+    
+    .margin-page {
+        margin-top: 10%;
     }

@@ -1461,7 +1461,7 @@ figure {
     transition: .2s;
 }
 
-.navlink.for-button:hover::after {
+.navlink.for-button:hover:: {
     background-color: white;
 }
 
