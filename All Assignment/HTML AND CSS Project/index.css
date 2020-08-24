@@ -473,3 +473,47 @@
     .margin-page {
         margin-top: 10%;
     }
+    
+    #projects-content-wrapper {
+        display: flex;
+    }
+    
+    .project-content {
+        width: 33%;
+        position: relative;
+    }
+    
+    .project-img {
+        width: 100%;
+    }
+    
+    .project-overlay {
+        background-color: rbga(0, 0, 0, 0.3);
+        transition: .2s;
+        opacity: 0;
+    }
+    
+    .project-content:hover.project-overlay {
+        opacity: 1;
+    }
+    
+    .project-circle {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        padding-right: 11px;
+        padding-left: 11px;
+        background-image: linear-gradient(59deg, #ff6361, #e47312);
+        color: #fff;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        position: absolute;
+    }
+    
+    .project-circle div {
+        text-transform: uppercase;
+    }
