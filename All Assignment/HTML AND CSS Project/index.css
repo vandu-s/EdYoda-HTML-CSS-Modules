@@ -314,7 +314,7 @@
         text-transform: uppercase;
         display: inline-block;
         text-align: center;
-        transition: ease-in;
+        transition: .2s;
     }
     
     .botton-text {
@@ -474,46 +474,197 @@
         margin-top: 10%;
     }
     
+    .project-heading {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+    }
+    
     #projects-content-wrapper {
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    
+    .project-grid {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    .project-items {
+        width: calc(33.33% - 30px);
+        padding-top: 15px;
+        padding-right: 15px;
+        display: inline-block;
     }
     
     .project-content {
-        width: 33%;
         position: relative;
+        max-width: 100%;
+    }
+    
+    .project-details {
+        position: relative;
+        overflow: hidden;
     }
     
     .project-img {
-        width: 100%;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block;
     }
     
     .project-overlay {
-        background-color: rbga(0, 0, 0, 0.3);
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.3);
         transition: .2s;
         opacity: 0;
-    }
-    
-    .project-content:hover.project-overlay {
-        opacity: 1;
     }
     
     .project-circle {
         width: 90px;
         height: 90px;
         border-radius: 50%;
-        display: inline-block;
-        text-align: center;
-        padding-right: 11px;
-        padding-left: 11px;
         background-image: linear-gradient(59deg, #ff6361, #e47312);
-        color: #fff;
+        padding-left: 11px;
+        padding-right: 11px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
         font-size: 12px;
         line-height: 18px;
         font-weight: 500;
+        text-align: center;
         letter-spacing: 1px;
-        position: absolute;
     }
     
-    .project-circle div {
+    .project-items:hover .project-overlay,
+    .project-items:hover .project-circle {
+        opacity: 1;
+    }
+    
+    .orange-section {
+        padding: 1% 0% 20px 20px;
+        background-color: #f7f8fc;
+    }
+    
+    .orange-content {
+        background-size: auto cover;
+        background-repeat: repeat, no-repeat;
+        background-attachment: scroll, fixed;
+        background-position: 0px 0px, 50%, 50%;
+        padding-top: 6%;
+        padding-bottom: 6%;
+        background-color: #e47312;
+        background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+    }
+    
+    .title-size {
+        font-size: 42px;
+    }
+    /* .white-button {
+        overflow: hidden;
+        text-decoration: none;
+        font-weight: 600;
         text-transform: uppercase;
+        color: white;
+        border-bottom: 2px solid white;
+    }
+    .white-button.for-white {
+        color: #fff;
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+        margin-left: 0;
+        padding-top: 0;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        max-width: 100%;
+        display: inline-block;
+        position: relative;
+    }
+    
+    
+    .white-button.for-white::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        height: 2px;
+        background-color: transparent;
+        transition: .2s;
+        z-index: 100;
+    }
+    
+    .white-button.for-white:hover::after {
+        background-color: #FFFFFF;
+        color: white;
+    }*/
+    
+    .team-wrapper {
+        width: 100%;
+        max-width: 1300px;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+    
+    .team-grid {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .team-wrapper {
+        width: 25%;
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .team-content {
+        position: relative;
+        width: 95%;
+    }
+    
+    .person-photo {
+        min-height: 300px;
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/team-1.jpg);
+        background-position: 50% 0%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .team-desc {
+        padding: 29px 66px 29px 29px;
+        background-color: #fff;
+    }
+    
+    .name {
+        line-height: 20px;
+    }
+    
+    .job-title {
+        margin-bottom: 0;
+        color: #bdbdc9;
+        font-size: 16px;
+    }
+    
+    .vertical-social-icons {
+        background-color: violet;
     }
