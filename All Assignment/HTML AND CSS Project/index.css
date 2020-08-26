@@ -962,14 +962,15 @@
     
     footer {
         position: relative;
-        margin-top: 0;
         z-index: 1;
         width: 90%;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
         padding-right: 50px;
-        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 70px;
         border-top: 1px solid #2f3038;
-        background-color: #0a1229;
+        background-color: #0A1229;
     }
     
     .footer-content {
@@ -977,12 +978,15 @@
         margin-left: -10px;
         margin-right: -10px;
         flex: 1;
+        min-height: 1px;
+        display: flex;
     }
     
     .footer-item {
         width: 33.33%;
         padding-left: 10px;
-        padding-right: 20%;
+        padding-right: 10px;
+        /*  margin: 0 auto;*/
     }
     
     .with-line {
@@ -990,17 +994,6 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-    }
-    
-    .in-footer {
-        margin-bottom: 30px;
-        padding-right: 14px;
-        background-color: #0a1229;
-        margin-right: 60px;
-        order: -1;
-        flex: 0 0 auto;
-        font-size: 15px;
-        line-height: 20px;
     }
     
     .line {
@@ -1012,4 +1005,92 @@
         width: 100%;
         height: 1px;
         background-color: #ff6361;
+    }
+    
+    .in-footer {
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding-right: 14px;
+        background-color: #0a1229;
+        margin-right: 60px;
+        order: -1;
+        flex: 0 0 auto;
+        font-size: 15px;
+        line-height: 20px;
+        position: relative;
+        z-index: 2;
+    }
+    
+    ._white1 {
+        color: #fff;
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 10px;
+    }
+    
+    .blue {
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: ;
+    }
+    
+    .white-button.for-white.blue::after {
+        background-color: transparent;
+    }
+    
+    .white-button.for-white.blue:hover::after {
+        background-color: white;
+    }
+    
+    .footer-column {
+        padding-right: 20%;
+    }
+    
+    .white-button.for-white.blue.margin_1 {
+        margin-top: 10px;
+    }
+    
+    .white-button.for-white.blue {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    
+    .contact-column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .info-item.horizantal {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex: 1;
+    }
+    
+    .left {
+        width: 20px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+    
+    .new {
+        margin-top: 0px;
+        color: #fff;
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .phone-no {
+        color: hsla(0, 0%, 100%, 0.7);
+        margin-left: 35px;
+        margin-top: 5px;
+        font-size: 17px;
     }
