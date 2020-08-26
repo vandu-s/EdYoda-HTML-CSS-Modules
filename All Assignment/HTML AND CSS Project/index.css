@@ -202,6 +202,7 @@
         margin-bottom: 0;
         letter-spacing: 1px;
         font-weight: 600;
+        text-transform: uppercase;
     }
     
     .paragraph-white {
@@ -898,4 +899,63 @@
         z-index: 100;
         transition: .2s;
         background-color: white;
+    }
+    
+    .logo-section {
+        margin: 0 auto;
+        margin-top: 150px;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-image: linear-gradient(56deg, #e47312, #ff6361);
+        text-align: center;
+    }
+    
+    .logo-flex {
+        max-width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        align-items: center;
+        position: relative;
+    }
+    
+    .company-font-size {
+        font-size: 15px;
+        flex: 0 0 auto;
+        order: -1;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .tab-logo {
+        background-size: 100px;
+        width: 20%;
+        max-width: 100%;
+        min-height: 100px;
+        display: inline-block;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: 50%, 50%;
+        transition: all 400ms ease;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .logo-1 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-1w.png);
+    }
+    
+    .logo-2 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-2w.png);
+    }
+    
+    .logo-3 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-3w.png);
+    }
+    
+    .logo-4 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-4w.png);
+    }
+    
+    .logo-5 {
+        background-image: url(https://nuuk-e3eaa.firebaseapp.com/assets/img/logo-5w.png);
     }
