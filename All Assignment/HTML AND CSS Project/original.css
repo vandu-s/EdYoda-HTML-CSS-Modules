@@ -1396,7 +1396,7 @@ figure {
     transition: .2s;
 }
 
-. .for-button.blue.w-inline-block:hover::after {
+.for-button.blue.w-inline-block:hover::after {
     background-color: #e47312;
 }
 
