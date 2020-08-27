@@ -218,6 +218,7 @@
         
         .humburge-icon i {
             font-size: 25px;
+            margin-right: 10px;
         }
         
         .middle-content {
@@ -1017,7 +1018,6 @@
             width: 33.33%;
             padding-left: 10px;
             padding-right: 10px;
-            /*  margin: 0 auto;*/
         }
         
         .with-line {
@@ -1146,6 +1146,7 @@
                 background-color: #fff;
                 width: 100%;
                 margin-top: 0;
+                max-width: 100%;
             }
             .nav-menu {
                 display: none;
@@ -1165,9 +1166,11 @@
                 height: 800px;
                 background-position: center center;
                 background-size: auto, cover;
+                max-width: 100%;
             }
             .social-button-section {
-                top: 420px;
+                top: 305px;
+                z-index: 10;
             }
             .top-title.on-banner {
                 font-size: 40px;
@@ -1175,23 +1178,28 @@
                 width: 300px;
             }
             .info-section-view {
+                z-index: 2;
                 position: absolute;
-                left: auto;
-                top: auto;
-                bottom: -80px;
+                right: auto;
+                bottom: 0px;
                 right: 0;
                 width: 100%;
-                padding: 15px 5px 20px 5px;
-                margin: 0 auto;
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .info-flex {
+                z-index: 1;
+                width: 100%;
+                display: flex;
+                padding-top: 30px;
+            }
+            .info-item {
+                width: calc(33% - 10px);
+                padding-left: 5px;
+                padding-right: 5px;
             }
             .project-heading {
                 margin-top: 50px;
-            }
-            .info-flex {
-                display: flex;
-            }
-            .info-item {
-                text-align: center;
             }
             .top-title {
                 font-size: 26px;
@@ -1229,13 +1237,15 @@
                 width: 100%;
             }
             .who-we-disc {
-                width: 100%;
-                padding-right: 20px;
-                padding-left: 30px;
                 margin-top: 50px;
+                width: 100%;
+                padding-right: 30px;
+                padding-left: 30px;
+                display: flex;
+                flex-direction: column;
             }
-            .margin-top-d {
-                width: 430px;
+            #page-content {
+                overflow: hidden;
             }
             .fun-facts {
                 display: flex;
@@ -1333,12 +1343,6 @@
                 background-image: linear-gradient(56deg, #e47312, #ff6361);
                 text-align: center;
             }
-            .logo-flex {
-                max-width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: flex-start;
-            }
             .no-display {
                 display: block;
                 font-size: 15px;
@@ -1346,30 +1350,23 @@
             .left-not-display {
                 display: none;
             }
-            .tab-logo {
-                background-size: 100px;
-                width: 33%;
+            .logo-flex {
                 max-width: 100%;
-                min-height: 100px;
-                display: inline-block;
-                background-color: transparent;
-                background-repeat: no-repeat;
-                background-position: 50%, 50%;
-                transition: all 400ms ease;
-                text-align: center;
+                display: block;
+                text-align: left;
+            }
+            .tab-logo {
+                width: 25%;
                 margin: 0 auto;
+                margin-left: 30px;
             }
             footer {
-                position: relative;
-                z-index: 2;
                 width: 100%;
                 margin-left: auto;
                 margin-right: auto;
                 padding-right: 50px;
                 padding-left: 50px;
                 padding-top: 70px;
-                border-top: 1px solid #2f3038;
-                background-color: #0A1229;
             }
             .footer-content {
                 max-width: 100%;
@@ -1396,7 +1393,58 @@
             ._white1 {
                 width: 415px;
             }
+            .info-item.horizantal {
+                width: 300px;
+            }
             .footer-column {
                 padding-right: 0;
+            }
+            .title-desc {
+                margin-top: 0;
+            }
+            .primary-heading-wrapper {
+                margin-top: 0;
+            }
+            #section-container {
+                margin-top: 40px;
+            }
+        }
+        
+        @media (max-width:400px) {
+            .primary-heading-wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+            .info-section-view {
+                display: none;
+            }
+            #banner {
+                height: 525px;
+            }
+            .who-we-disc {
+                height: 500px;
+            }
+            .orange-section {
+                margin-top: 10px;
+                width: 100%;
+                padding: 1% 0% 20px 0px;
+            }
+            .logo-section {
+                padding-top: 40px;
+            }
+            .logo-flex {
+                max-width: 100%;
+                display: flex;
+                flex-direction: column;
+            }
+            footer {
+                margin-right: 0px;
+                padding-right: 0px;
+                padding-left: 25px;
+            }
+            .paragraph-white._white1 {
+                width: 300px;
             }
         }
