@@ -240,3 +240,66 @@
         background-color: rgb(247, 238, 238);
         border-radius: 10px;
     }
+    
+    .special-menu-grid {
+        display: flex;
+    }
+    
+    .special-item {
+        width: 33%;
+        margin-right: 2%;
+    }
+    
+    .thumbnil {
+        position: relative;
+        margin-bottom: 12px;
+    }
+    
+    .thumbnil img {
+        width: 100%;
+        height: 160px;
+        border-radius: 36px;
+    }
+    
+    .price {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 6px;
+        left: 0;
+        font-size: 13px;
+        text-align: center;
+        font-weight: 600;
+        border-top-right-radius: 24px;
+        padding: 10px 12px;
+        background-color: white;
+    }
+    
+    .special-item p {
+        margin: 0;
+        font-weight: 600;
+    }
+    
+    .special-item-desc {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .special-item-desc img {
+        width: 16px;
+    }
+    
+    .special-item-desc p {
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .grey-text {
+        display: flex;
+        color: #9E9E9E;
+        align-items: center;
+        justify-content: space-around;
+    }
