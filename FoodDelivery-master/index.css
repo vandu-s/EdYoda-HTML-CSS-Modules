@@ -8,9 +8,13 @@
         background-clip: #FFFFFF;
     }
     
+    main {
+        display: flex;
+    }
+    
     #page-content {
-        padding: 30px 80px;
-        width: 70%
+        padding: 20px 80px 30px 60px;
+        width: calc (70% - 140px)
     }
     
     nav {
@@ -77,8 +81,9 @@
         margin: 0 auto;
         margin-top: 80px;
         border-radius: 20px;
-        width: 98%;
+        width: 100%;
         padding-top: 10px;
+        padding-right: 5px;
     }
     
     .delivery-d-flex {
@@ -102,7 +107,7 @@
     
     .delivery-text {
         margin-left: 320px;
-        margin-right: 50px;
+        margin-right: 40px;
     }
     
     .delivery-text h3 {
@@ -246,7 +251,7 @@
     }
     
     .special-item {
-        width: 33%;
+        width: calc (33% - 2%);
         margin-right: 2%;
     }
     
@@ -302,4 +307,197 @@
         color: #9E9E9E;
         align-items: center;
         justify-content: space-around;
+    }
+    
+    .right-section {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        width: 30%;
+        background-color: #FCFCFA;
+        border: 1px solid #FCFCFA;
+        box-shadow: 0 2px 5px #FCFCFA;
+        border-radius: 15px;
+    }
+    
+    .side-top {
+        margin-right: 70px;
+    }
+    
+    .top-menu-right {
+        margin-left: 200px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .top-menu-right img {
+        width: 18px;
+        margin-right: 20px;
+    }
+    
+    .top-menu-right span {
+        font-weight: bold;
+        background-color: #FCD561;
+        padding: 10px 16px;
+        border-radius: 15px;
+    }
+    
+    .my-order-wrapper {
+        margin-top: 80px;
+    }
+    
+    .my-order-wrapper h2 {
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    
+    .my-order-wrapper div {
+        font-weight: 600;
+        font-size: 24px;
+    }
+    
+    .my-order-wrapper div::first-letter {
+        font-size: 27px;
+    }
+    
+    .my-order-wrapper h2::first-letter {
+        font-size: 26px;
+    }
+    
+    .my-order-wrapper img {
+        width: 25px;
+        margin-left: 5px;
+    }
+    
+    .blue-box {
+        background-color: #503E9D;
+        color: #F4F4F9;
+        padding: 20px 25px;
+        border-radius: 24px;
+        margin-top: 30px;
+    }
+    
+    .blue-box span {
+        color: #EDC866;
+        font-weight: 600;
+        letter-spacing: 0.90px;
+    }
+    
+    .line-1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .line-2 {
+        display: flex;
+        align-items: center;
+    }
+    
+    .line-2 i {
+        font-size: 18px;
+        color: #EDC866;
+        background-color: #604C96;
+        padding: 8px;
+        border-radius: 10px;
+    }
+    
+    .line-2 p {
+        margin-left: 20px;
+        margin-right: 40px;
+    }
+    
+    .billing-section {
+        margin-top: 30px;
+    }
+    
+    .billing-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    
+    .billing-item img {
+        width: 80px;
+        height: 40px;
+        border-radius: 15px;
+        margin-right: 15px;
+    }
+    
+    .billing-item h3 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    .billing-item p {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    
+    .billing-item span {
+        color: #C1C1C0;
+        font-size: 14px;
+    }
+    
+    .dish-name {
+        width: 100px;
+        margin-left: 20px;
+    }
+    
+    .total-amt {
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .total-amt p {
+        font-weight: 500;
+    }
+    
+    .total-amt h4 {
+        font-size: 20px;
+    }
+    
+    .horizonal-line {
+        border-bottom: 2px solid #E4E4E3;
+        margin-right: 0;
+        padding-left: 0;
+    }
+    
+    .checkout-section {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .person p {
+        font-weight: 500;
+    }
+    
+    .number {
+        padding: 8px 25px;
+        border: 2px solid #EAEAE8;
+        background-color: #FBFBF9;
+        border-radius: 15px;
+        font-size: 18px;
+    }
+    
+    .ch {
+        display: flex;
+        align-items: center;
+        background-color: #FCD561;
+        padding: 10px 0 10px 40px;
+        height: 100px;
+        margin-top: 20px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        font-weight: 600;
+        width: 200px;
+    }
+    
+    .ch p {
+        margin-right: 30px;
     }
