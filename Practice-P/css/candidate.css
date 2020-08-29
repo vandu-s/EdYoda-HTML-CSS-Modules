@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F8F8;
+}
+
+#page-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    width: 90%;
+    background-color: #F5E1C5;
+    margin: 80px auto;
+}
+
+nav {
+    box-sizing: border-box;
+    width: calc(100% - 10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    margin-left: 60px;
+}
+
+.left-menu h3 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #133F3F;
+    font-weight: 900;
+}
+
+.right-menu {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    justify-content: space-around;
+    color: #133F3F;
+    margin-right: 40px;
+}
+
+.right-menu a {
+    text-decoration: none;
+    color: #133F3F;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.login-btn {
+    background-color: #F5E1C5;
+    color: #133F3F;
+    border-color: #133F3F;
+    border: 2px solid #133F3F;
+    outline: 0;
+    padding: 12px 25px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.employer-btn {
+    background-color: #133F3F;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 15px 30px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 500;
+}

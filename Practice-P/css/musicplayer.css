@@ -218,7 +218,6 @@
     #grid {
         display: flex;
         justify-content: space-around;
-        overflow: hidden;
     }
     
     .popstar-cards {
