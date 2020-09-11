@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cf98ff2373.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            color: #0abde3;
+            font-family: 'Grenze Gotisch', cursive;
+            margin: 0;
+            box-sizing: border-box;
+            background-color: #fcfdfd;
+        }
+        
+        div {
+            width: var(--width);
+            height: 30vh;
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+         ::root {
+            width: 100vw;
+        }
+        
+        div h1 {
+            font-size: 50px;
+        }
+        
+        h1::after {
+            content: "\f005";
+            font-family: "Font Awesome 5 free";
+            width: calc (var(--width)-80vw);
+            height: 25px;
+            columns: #1abc9c;
+            font-size: 3rem;
+            display: block;
+            margin: 0 auto;
+            border-bottom: 5px solid #3498db;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Vandana Rupesh</h1>
+    </div>
+
+</body>
+
+</html>

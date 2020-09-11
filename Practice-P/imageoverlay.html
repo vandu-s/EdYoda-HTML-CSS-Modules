@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Overlay</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .parent_div {
+            width: 100vw;
+            height: 100vh;
+            background: #2e3b47;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 20px 10px rgb(252, 9, 9);
+        }
+        
+        .child_div {
+            width: 60vw;
+            height: 60vh;
+            background-image: linear-gradient( 120deg, rgba(248, 206, 206, 0.6) 50%, transparent 50%), url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSi0bauYC_npjen17LBTRt4mfg_Jj4X6SRtuw&usqp=CAU);
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent_div">
+        <div class="child_div">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
